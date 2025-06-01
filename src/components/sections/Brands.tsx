@@ -14,7 +14,7 @@ export const Brands = () => {
                 </div>
 
                         {/* Logo Grid */}
-                <div className="flex flex-wrap justify-ccenter gap-6 sm:gap-8 md:gap-10 items-center ">
+                <div className="flex flex-wrap justify-ccenter gap-6 sm:gap-5 md:gap-10 items-center ">
                     {logos.map((logo, key) => (
                     <div key={key} className="p-3 sm:p-4 rounded-xl shadow-sm transition-transform duration-3oo
                                               ease-in-out hover:scale-105 hover:shadow-md">
