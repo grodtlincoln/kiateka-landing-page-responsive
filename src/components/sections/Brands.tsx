@@ -5,7 +5,7 @@ const logos = ["fuoye", "gdscEK", "gdscOYE", "mlsa", "sca", "wiki"];
 
 export const Brands = () => {
     return (
-        <section className="mt-10 xl:mt-16"> 
+        <section className="mt-5 xl:mt-4"> 
             <Container className="space-y-10"> 
 
                   {/* Section Heading */}
@@ -18,7 +18,7 @@ export const Brands = () => {
                     {logos.map((logo, key) => (
                     <div key={key} className="p-3 sm:p-4 rounded-xl shadow-sm transition-transform duration-3oo
                                               ease-in-out hover:scale-105 hover:shadow-md">
-                       <img src={`src/assets/logos/${logo}.png`} 
+                       <img src={`/assets/logos/${logo}.png`} 
                        width="100"
                        height="60"
                        alt={logo}

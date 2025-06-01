@@ -1,5 +1,5 @@
 import { Container } from "../shared/Container";
-import logo from "../../assets/EventTrakka.png";
+import logo from "/assets/EventTrakka.png";
 import { NavItem } from "../shared/NavItem";
 import { BtnLink } from "../shared/BtnLink";
 import { useThemeStore } from "../../store/ThemeStore";
