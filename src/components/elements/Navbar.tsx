@@ -77,7 +77,7 @@ export const Navbar = () => {
                    className="mt-4 rounded-3xl bg-white dark:bg-neutral-900 text-black dark:text-white w-full p-6 flex flex-col
                                items-center lg:hidden">
                   
-                  <ul className="py-4 space-y-4">
+                  <ul className="py-4 space-y-4 text-black dark:text-white">
                     {navItems.map((item, key) => (
                     <NavItem href= {item.href} text={item.text} key={key} />
                        ))}
