@@ -25,7 +25,8 @@ export const Navbar = () => {
     };
 
     return (
-    <header className="fixed inset-x-0 top-0 bg-white text-black dark:bg-black dark:text-white z-50 py-6 shadow-md transition-colors duration-300"> 
+    <header className="fixed inset-x-0 top-0 bg-white text-black dark:bg-black dark:text-white 
+                       z-50 py-6 shadow-md transition-colors duration-300"> 
     {" "} 
     <Container>
         <nav className="w-full flex justify-between gap-6 relative items-center">
@@ -52,7 +53,8 @@ export const Navbar = () => {
             
               {/* Theme toggle btn */}
             <div className="flex items-center gap-x-3">
-                <button onClick={toggleTheme} className="text-black dark:text-white rounded-full p-2 border border-box-border cursor-pointer">
+                <button onClick={toggleTheme} className="text-black dark:text-white rounded-full p-2 
+                                                         border border-box-border cursor-pointer">
                   {theme === "dark" ? <MoonIcon />:<SunIcon />}
                 </button>
             </div>
@@ -74,7 +76,8 @@ export const Navbar = () => {
             
               {mobileDrawerOpen && (
                 <div id="mobile-menu"
-                   className="mt-4 rounded-3xl bg-white dark:bg-neutral-900 text-black dark:text-white w-full p-6 flex flex-col
+                   className="mt-4 rounded-3xl bg-white dark:bg-neutral-900 text-black 
+                              dark:text-white w-full p-6 flex flex-col
                                items-center lg:hidden">
                   
                   <ul className="py-4 space-y-4 text-black dark:text-white">
