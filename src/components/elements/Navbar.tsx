@@ -25,7 +25,7 @@ export const Navbar = () => {
     };
 
     return (
-    <header className="fixed inset-x-0 top-0 bg-white text-black dark:bg-black dark:text-white 
+    <header className="fixed inset-x-0 top-0 bg-white dark:bg-black text-black  dark:text-white 
                        z-50 py-6 shadow-md transition-colors duration-300"> 
     {" "} 
     <Container>
